@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add recipe page</title>
+</head>
+<body>
+    <hr>
+<header style="text-align:center;"><nav>
+<a href="index.html">Home</a>  | 
+<a href="#add-recipe.html">Add Recipe</a>  |
+<a href="recipe-list.html">Recipe List</a>|
+<a href="recipe-details.html">Recipe details</a>
+</nav></header><hr>
+<main>
+    <article>
+        <h1>Submit your recipe</h1><hr>
+    <form>
+        <label for="name">Recipe name</label><br>
+        <input type="text" id="name" name="name" placeholder="E.g: Kabab, Mantu, Meatball"><br><br>
+   <label for="ing">What ingredients did you need?*</label><br>
+   <textarea  id="ing" cols="50" rows="10" placeholder="E.g: 200gr beef, 5 Onions, 1 cup of oil"></textarea><br><br>
+<label for="prepare">How do you prepare it?*</label> <br>
+<textarea  id="prepare" cols="50" rows="10" placeholder="E.g: slice onions, add oil, mix row meat....."></textarea> <br><br> 
+<label for="link">Add your image link:</label><br>
+<input type="text" placeholder="image's link" id="link"><br><br>
+<label for="category">Recipe category:*</label><br>
+<select id="category" name="category" required>
+<option value="">Select...</option>
+<option value="Appetizer">Appetizer</option>
+<option value="Main course">Main course</option>
+<option value="Dessert">Dessert</option>
+<option value="Drinks">Drinks</option>
+<option value="Snakes">Snakes</option>
+</select><br>
+<input type="submit" value="Save your recipe">
+
+</form>
+    </article>
+</main>
+    <hr><br><br>
+    <footer>
+        <footer>
+            <p><strong>Made by:</strong> Akrami</p>
+            <p><strong>Contact Num:</strong> +93 795 61 29 86</p> 
+            <p><strong>Email:</strong> RecipeBook@gmial.com</p>
+    </footer>
+</body>
+</html>
